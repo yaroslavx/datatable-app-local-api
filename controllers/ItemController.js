@@ -64,7 +64,7 @@ export const updateItem = async (req, res, next) => {
 // Получение всех записей
 // Также прямо тут реализована фильтрация
 // q - query
-// c - column (name, amount, distance)
+// c - column (name, customer, weight, ID)
 // l - logic (<, =, >)
 export const getAllItems = async (req, res, next) => {
   try {
